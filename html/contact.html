@@ -28,20 +28,26 @@
                 <p class="contactP">Mobile number: +2348066926408</p>
             </div>
     
-            <form id="form" name="contact" netlify>
+            <form id="form" name="contact" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
+                <div class="form-group">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
+                </div>
                 <div class="form-group">
                     <!-- <label class="label" for="exampleInputEmail1">Email address</label> -->
-                    <input type="email" class="form-control input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+                    <input type="email" name="email" class="form-control input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
                 </div>
                 <br><br>
                 <div class="form-group">
                     <!-- <label class="label" for="exampleInputPassword1"></label> -->
-                    <input type="number" class="form-control input" id="exampleInputPassword1" placeholder="Phone number">
+                    <input type="text" name="mobile" class="form-control input" id="exampleInputPassword1" placeholder="Phone number">
                 </div>
                 <div class="form-group">
                     <!-- <label class="label" for="exampleFormControlTextarea1">Enter message</label><br> -->
-                    <textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message"></textarea>
+                    <textarea name="message" class="form-control textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message"></textarea>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
                 
                 <button type="submit" class="btn btn-primary butt">Submit</button>
             </form>
