@@ -4,9 +4,9 @@ var typewriter = new Typewriter(typedText, {
     loop: true
 });
 
-typewriter.typeString('front-end web developer')
+typewriter.typeString('web developer')
     .pauseFor(2500)
-    .deleteChars(23)
+    .deleteChars(13)
     .typeString('mobile app developer')
     .pauseFor(2500)
     .deleteChars(20)
