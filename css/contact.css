@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-wrapper-contact {
+    display: flex;
+    padding: 2vh 5vw;
+    margin: 8vh 0 0 3vw;
+}
+
+.contactP {
+    font-size: 1.5rem;
+}
+
+#form {
+    margin: 0 0 0 5%;
+}
+
+.input {
+    width: 15vw;
+    height: 3vh;
+    padding: 1vh 1vw;
+}
+
+.textarea {
+    width: 30vw;
+    height: 20vh;
+    padding: 1vh 1vw;
+    margin-top: 5vh;
+    border-radius: 2%;
+}
+
+.butt {
+    width: 8vw;
+    height: 5vh;
+    padding-top: 0.7%;
+    padding-bottom: 0.5%;
+    background-color: #00000000;
+    color: #5d00ff;
+    border: 2px solid #5d00ff;
+    border-radius: 8%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+
+.butt:hover {
+    background-color: #5d00ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1050px) {
+    .grid-wrapper-contact {
+        display: block;
+    }
+
+    .contactP {
+        font-size: 1.3rem;
+    }
+
+    .input {
+        width: 60vw;
+        height: 3vh;
+    }
+
+    .textarea {
+        width: 60vw;
+        height: 20vh;
+    }
+
+    #form {
+        margin: 5vh 0 0 0;
+    }
+
+    .butt {
+        width: 30vw;
+        height: 5vh;
+        font-size: 1.2rem;
+        margin: 2vh 0.7%;
+    }
+    
+}

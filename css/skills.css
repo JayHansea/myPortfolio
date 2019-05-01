@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-wrapper-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5px;
+    margin: 10vh 0 0 0;
+}
+
+.box {
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+    -o-transition: all ease-in-out 2000ms;
+    -ms-transition: all ease-in-out 2000ms;
+    -moz-transition: all ease-in-out 2000ms;
+    -webkit-transition: all ease-in-out 2000ms;
+    transition: all ease-in-out 2000ms;
+}
+
+.bootstrap {
+    padding: 10% 20% 40% 20%;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box p {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    /* color: #001aff; */
+    text-align: center;
+}
+
+.box > i {
+    width: 100%;
+    height: auto;
+}

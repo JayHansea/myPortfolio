@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-wrapper-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 5px;
+    margin: 5vh 60px;
+}
+
+.box {
+    padding: 2px;
+    margin: 10px;
+    -o-transition: all ease-in-out 2000ms;
+    -ms-transition: all ease-in-out 2000ms;
+    -moz-transition: all ease-in-out 2000ms;
+    -webkit-transition: all ease-in-out 2000ms;
+    transition: all ease-in-out 2000ms;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.box p {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#eg {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: left;
+}
+
+ul {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 1050px) {
+    .grid-wrapper-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin: 3vh 0;
+    }
+}
