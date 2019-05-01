@@ -53,6 +53,10 @@ body {
     cursor: pointer;
 }
 
+#recap {
+    margin: 3vh 0;
+}
+
 @media only screen and (max-width: 1050px) {
     .grid-wrapper-contact {
         display: block;
