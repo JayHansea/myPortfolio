@@ -73,7 +73,7 @@ a:hover {
 }
 
 .mainText {
-    font-size: 6.5rem;
+    font-size: 6rem;
     font-family: 'Rye', cursive;
     font-weight: 900;
     font-variant: small-caps;
@@ -147,7 +147,7 @@ a:hover {
 #profile {
     width: 15%;
     border-radius: 50%;
-    margin: 10vh 0 0 41.8vw;
+    margin: 9vh 0 0 41.8vw;
 }
 
 @media only screen and (max-width: 600px) {
