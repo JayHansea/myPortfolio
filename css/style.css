@@ -73,7 +73,7 @@ a:hover {
 }
 
 .mainText {
-    font-size: 6rem;
+    font-size: 5.8rem;
     font-family: 'Rye', cursive;
     font-weight: 900;
     font-variant: small-caps;
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .introText {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     /* font-style: italic; */
     font-family: Lobster;
     color: #f5f5f6;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .WhatIAm {
-    font-size: 2.2rem;
+    font-size: 2rem;
     /* font-style: italic; */
     font-family: 'digital-7';
     color: #f5f5f6;
