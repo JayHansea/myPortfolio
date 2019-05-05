@@ -4,6 +4,44 @@ body {
     box-sizing: border-box;
 }
 
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+ .main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #000a63;
+    text-decoration: none;
+    font-style: italic;
+    -o-transition: all 1000ms;
+    -ms-transition: all 1000ms;
+    -moz-transition: all 1000ms;
+    -webkit-transition: all 1000ms;
+    transition: all 1000ms;
+}
+
+a:hover {
+    font-style: normal;
+}
+
+/***********************************************************************
+ *  Contact section
+ **********************************************************************/
+
 .grid-wrapper-contact {
     display: flex;
     padding: 2vh 5vw;
@@ -58,6 +96,11 @@ body {
 }
 
 @media only screen and (max-width: 1050px) {
+    .main-nav {
+        font-size: 0.8em;
+        padding: 0;
+    }
+
     .grid-wrapper-contact {
         display: block;
     }
